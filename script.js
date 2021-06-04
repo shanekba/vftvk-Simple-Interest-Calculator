@@ -18,7 +18,7 @@ if (principal <= 0)
     var year = new Date().getFullYear()+parseInt(years);
     
     //Show the computed data
-    document.getElementById("result").innerHTML="If you deposit <strong>"+principal+"</strong>,\<br\>at an interest rate of <strong>"+rate+"</strong>\<br\>You will receive an amount of <strong>"+interest+"</strong>,\<br\>in the year <strong>"+year+"</strong>\<br\>"
+    document.getElementById("result").innerHTML="If you deposit <strong>$"+principal+"</strong>,\<br\>at an interest rate of <strong>"+rate+"%</strong>\<br\>You will receive an amount of <strong>$"+interest+"</strong>,\<br\>in the year <strong>"+year+"</strong>.\<br\>"
 }
 
 //Update rate when changing slider value
